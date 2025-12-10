@@ -16,7 +16,7 @@ public class LinkedListDemo {
         ll.add(0,"Hashim");
         ll.remove();
         ll.removeLast();
-        System.out.println(ll);
+        System.err.println(ll);
         ListIterator<Object> l=ll.listIterator(ll.size());
         while(l.hasPrevious()){
             System.out.println(l.previous());
