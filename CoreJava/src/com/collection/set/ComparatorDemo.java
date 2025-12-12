@@ -23,6 +23,8 @@ public class ComparatorDemo implements Comparator {
 
         Integer i=(Integer)obj1;
         Integer i1=(Integer)obj2;
+        return -i.compareTo(i1);
+        /* return i.compareTo(i1);
         if(i<i1){
             return +1;
         }
@@ -32,6 +34,15 @@ public class ComparatorDemo implements Comparator {
         else{
             return 0;
         }
+         if(i<i1){
+            return -1;
+        }
+        else if(i>i1){
+            return +1;
+        }
+        else{
+            return 0;
+        }*/
     }
     
 }
