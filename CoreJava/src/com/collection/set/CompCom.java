@@ -12,7 +12,7 @@ class Employee implements Comparable{
         this.eid=eid;
     }
     public String toString(){
-        return name+"---"+eid;
+        return name+"---> "+eid;
     }
     public int compareTo(Object o){
 
@@ -32,11 +32,11 @@ class Employee implements Comparable{
 public class CompCom {
     public static void main(String[] args) {
 
-        Employee e1=new Employee("Hashim",82);
-        Employee e2=new Employee("Rani",75);
+        Employee e1=new Employee("Hashim-",82);
+        Employee e2=new Employee("Rani --",75);
         Employee e3=new Employee("Altmash",18);
-        Employee e4=new Employee("Arslan",96);
-        Employee e5=new Employee("Mr Srk",20);
+        Employee e4=new Employee("Arslan-",96);
+        Employee e5=new Employee("Mr Srk-",20);
 
         TreeSet<Employee> ts=new TreeSet<>();
         ts.add(e1);

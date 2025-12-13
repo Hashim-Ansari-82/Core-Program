@@ -28,5 +28,4 @@ public class Encapsulation {
       System.out.println("Your Pin is : "+atm.getPin());
      System.out.println("Your Balance is : "+atm.getBalance());
 	}
-
 }
