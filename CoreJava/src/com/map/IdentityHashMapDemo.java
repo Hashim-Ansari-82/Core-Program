@@ -1,4 +1,4 @@
-package com.map.identityhashmap;
+package com.map;
 
 import java.util.IdentityHashMap;
 

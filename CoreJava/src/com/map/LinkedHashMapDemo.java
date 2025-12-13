@@ -1,12 +1,13 @@
-package com.map.hashmap;
+package com.map;
 
-import java.util.HashMap;
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-public class HashMapDemo {
+public class LinkedHashMapDemo {
     public static void main(String[] args) {
 
-        HashMap<Integer,String> hm=new HashMap<>();
+        LinkedHashMap<Integer,String> hm=new LinkedHashMap<>();
 
         hm.put(12 ," Hashim");
         hm.put(13 ," Asim");
@@ -14,7 +15,7 @@ public class HashMapDemo {
         hm.put(15 ," Adnan");
         hm.put(16 ," Arslan");
         System.out.println(hm);
-        System.out.println(hm.put(16," Rani"));
+        System.out.println(hm.put(13," Rani"));
         System.out.println(hm.keySet());
         System.out.println(hm.values());
         System.out.println(hm.entrySet());
