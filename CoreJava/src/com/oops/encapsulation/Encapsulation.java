@@ -21,7 +21,7 @@ class ATM{
 public class Encapsulation {
 
 	public static void main(String[] args) {
-		
+
       ATM atm = new ATM();
       atm.setPin(7233);
       atm.setBalance(10000);
