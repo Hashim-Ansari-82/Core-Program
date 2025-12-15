@@ -7,7 +7,6 @@ class Customer implements Serializable {
     String name = "Hashim Ansari";
     transient int id = 867161;
 }
-
 public class Serialization1st {
 
     public static void main(String[] args) throws Exception {
