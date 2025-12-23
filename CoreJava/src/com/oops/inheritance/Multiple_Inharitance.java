@@ -14,7 +14,6 @@ class Warrior implements  Weapon,Character{
 		System.out.println("Attack the Enemy");
 	}
 }
-
 public class Multiple_Inharitance {
 
 	public static void main(String[] args) {
