@@ -1,4 +1,4 @@
-package com.string;
+package com.regex;
 
 import java.io.File;
 import java.util.regex.Matcher;
@@ -9,7 +9,7 @@ public class FileNameExtractor {
 
         int count=0;
         Pattern p=Pattern.compile("[a-zA-Z0-9_$.]+[.](class|java|txt|ser)");
-        File f=new File("C:\\Hashim Ansari\\CoreJava");
+        File f=new File("C:");
         String[] a=f.list();
         for(String a1:a){
             Matcher m=p.matcher(a1);

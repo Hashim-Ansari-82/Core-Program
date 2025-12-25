@@ -1,13 +1,17 @@
-package com.string;
+package com.regex;
 
-import java.io.*;
-import java.util.regex.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-public class MobileNumberExtractor {
+public class EmailIdExtractor {
     public static void main(String[] args) throws IOException {
 
         PrintWriter pw=new PrintWriter("output.txt");
-        Pattern p= Pattern.compile("(0|91)?[7-9][0-9]{9}");
+        Pattern p= Pattern.compile("[a-zA-Z0-9][a-zA-Z0-9_.]*@[a-zA-Z0-9]+([.][a-zA-Z0-9]+)+");
         BufferedReader br=new BufferedReader(new FileReader("input.txt"));
         String line=br.readLine();
         while(line != null){

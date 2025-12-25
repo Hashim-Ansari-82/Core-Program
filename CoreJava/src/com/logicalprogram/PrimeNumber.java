@@ -17,7 +17,7 @@ public class PrimeNumber {
 	       break;   
 	   }
 	   }
-	   if(isPrime==false){
+	   if(!isPrime){
 		  System.out.print(i+",");
 		  sc.close();
 	   }
