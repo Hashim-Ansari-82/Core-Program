@@ -1,4 +1,4 @@
-package ArrayDemo;
+package com.arrayprogram;
 
 public class BubbleSortIntValue {
     public static void main(String[] args) {
