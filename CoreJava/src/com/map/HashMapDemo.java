@@ -23,10 +23,9 @@ public class HashMapDemo {
         while(itr.hasNext()){
             Map.Entry m=(Map.Entry)itr.next();
             System.err.println(m.getKey()+" ---->"+m.getValue());
-            if(m.getKey().equals(15)){
-                m.setValue(" U P");
+            if(m.getKey().equals(12)){
+                itr.remove();
             }
-
         }
         System.out.println(hm);
     }

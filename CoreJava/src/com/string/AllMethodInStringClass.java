@@ -5,7 +5,7 @@ import java.lang.reflect.*;
 public class AllMethodInStringClass {
     public static void main(String[] args) throws ClassNotFoundException {
         int count=0;
-        Class c=Class.forName("java.lang.Thread");
+        Class c=Class.forName("java.util.ListIterator");
         Method[] m=c.getDeclaredMethods();
         for(Method m1:m){
             System.out.println(m1.getName());
