@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 package com.generics;
-=======
-package com.Generics;
->>>>>>> f3e1def09101a6122c098c4ca4c25b0cf7fc45bf
+
 
 class Gen<T>{
 
