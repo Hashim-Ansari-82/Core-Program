@@ -1,4 +1,4 @@
-package com.Generics;
+package com.generics;
 
 import java.util.ArrayList;
 
