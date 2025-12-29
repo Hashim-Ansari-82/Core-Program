@@ -22,7 +22,7 @@ public class HashMapDemo {
         Iterator itr=hm.entrySet().iterator();
         while(itr.hasNext()){
             Map.Entry m=(Map.Entry)itr.next();
-            System.err.println(m.getKey()+" ---->"+m.getValue());
+            System.out.println(m.getKey()+" ---->"+m.getValue());
             if(m.getKey().equals(12)){
                 itr.remove();
             }

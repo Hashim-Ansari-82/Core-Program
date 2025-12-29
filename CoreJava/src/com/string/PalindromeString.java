@@ -14,10 +14,10 @@ public class PalindromeString {
         if(str.equals(str1))
         {
         System.out.println(str1+" Is Palindrome String ");
+        }
+        else
+        {
+            System.out.println(str1+" Is Not Palindrome String");
+        }
     }
-    else
-    {
-        System.out.println(str1+" Is Not Palindrome String");
-    }
-}
 }

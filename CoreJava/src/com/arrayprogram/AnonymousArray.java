@@ -1,6 +1,6 @@
 package com.arrayprogram;
 
-class AnnonymousArray{
+class AnonymousArray{
     public static void main(String[] args) {
     	
         sum(new int[]{10,20,30,40});
