@@ -11,12 +11,13 @@ public class ArraysAsListDemo {
         System.out.println(l);
         s[3]="K";
         System.out.println(l);
-        l.set(2,"143");
+        l.set(1,"143");
+        System.out.println(l);
         for(String s1:s){
             System.out.println(s1);
         }
-        l.add("Hashim");
-        l.remove("143");
-        l.set(1,new Integer(22));
+//        l.add("Hashim");
+//        l.remove("143");
+//        l.set(1,new Integer(22));
     }
 }
