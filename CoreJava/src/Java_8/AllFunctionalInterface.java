@@ -5,7 +5,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-public class AllMethod {
+public class AllFunctionalInterface {
     public static void main(String[] args) {
 
         Predicate<Integer> predicate=x-> x%2==0;
