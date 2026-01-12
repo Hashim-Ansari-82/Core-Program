@@ -1,6 +1,6 @@
 package com.multithreading;
 
-public class InterruptedAndisInterruptedMethod extends Thread{
+public class InterruptedAndIsInterruptedMethod extends Thread{
 
     public  void run(){
 
@@ -21,7 +21,7 @@ public class InterruptedAndisInterruptedMethod extends Thread{
 
     public static void main(String[] args) {
 
-        InterruptedAndisInterruptedMethod i=new InterruptedAndisInterruptedMethod();
+        InterruptedAndIsInterruptedMethod i=new InterruptedAndIsInterruptedMethod();
         i.start();
         i.interrupt();
     }
